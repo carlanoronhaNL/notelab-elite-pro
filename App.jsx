@@ -863,12 +863,6 @@ function TeacherConsoleReal({ onClose }) {
 
 
 
-const T = {
-  bg:"#f0f2f7", surface:"#ffffff", card2:"#f8f9fc",
-  border:"#e2e6f0", border2:"#c8d0e4", navy:"#1a2744", navy2:"#0f1729",
-  gold:"#c9982a", goldL:"#f0c355", text:"#1a2744", text2:"#475569", text3:"#94a3b8",
-  red:"#dc2626", green:"#16a34a",
-};
 
 function AuthScreen() {
   const [mode,     setMode]     = useState("login");
